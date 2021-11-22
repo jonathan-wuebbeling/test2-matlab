@@ -41,7 +41,7 @@ filename = '20190619-0003.csv';
 Measurement.SignalFrequency = 20.0;             % frequency  of signal (as configured in the frequency  generator)
 SensitivityDisplacementSensor = 10;            % Displacement  in   V/mm
 SensitivityVelocitySensor = 0.0233;             % Velocity      in   V/mm/s
-SensitivityAccelerationSensor = 10.16*10^-6;    % Acceleration  in   V/mm/s²
+SensitivityAccelerationSensor = 10.16*10^-6;    % Acceleration  in   V/mm/sÂ²
 
 
 
@@ -343,4 +343,4 @@ ylabel('$mm$','interpreter','latex') % y-axis label
 help butter
 
 %% Hrllo 
-disp('Hello World')
+disp('Hello Lukas')
